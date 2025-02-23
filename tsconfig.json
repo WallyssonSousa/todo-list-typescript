@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",  // Compilar para o ES6 (modern JavaScript)
+    "module": "commonjs",  // Módulo padrão do Node.js
+    "strict": true,  // Ativa todas as checagens de tipo
+    "esModuleInterop": true,  // Para importar pacotes do Node.js corretamente
+    "skipLibCheck": true,  // Ignora a checagem de tipos nas bibliotecas
+    "outDir": "./dist"  // Saída dos arquivos compilados
+  },
+  "include": ["src/**/*"],  // Pasta de origem
+  "exclude": ["node_modules"]  // Ignorar node_modules
+}
